@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FCD7AD09109A4B7A6978AEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0FCD7AD09109A4B7A6978AEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3BAE8D710E88631364F770BE /* Pods_MyFirstPodSnake_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstPodSnake_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		469D655C5E13A138BE2692B0 /* Pods-MyFirstPodSnake_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodSnake_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyFirstPodSnake_Tests/Pods-MyFirstPodSnake_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyFirstPodSnake_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstPodSnake_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* MyFirstPodSnake_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstPodSnake_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64508D88CFFAF56D4C484ECA /* MyFirstPodSnake.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyFirstPodSnake.podspec; path = ../MyFirstPodSnake.podspec; sourceTree = "<group>"; };
+		64508D88CFFAF56D4C484ECA /* MyFirstPodSnake.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyFirstPodSnake.podspec; path = ../MyFirstPodSnake.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71CA948AAEBA9E07882A9F5B /* Pods-MyFirstPodSnake_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodSnake_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyFirstPodSnake_Example/Pods-MyFirstPodSnake_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		72A3FB17549C526FFDB0C5A8 /* Pods-MyFirstPodSnake_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodSnake_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyFirstPodSnake_Tests/Pods-MyFirstPodSnake_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8BC2EB94817168B8F57F2B54 /* Pods-MyFirstPodSnake_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodSnake_Example.release.xcconfig"; path = "Target Support Files/Pods-MyFirstPodSnake_Example/Pods-MyFirstPodSnake_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D82C02345748DFC9A8E22A0A /* Pods_MyFirstPodSnake_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstPodSnake_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E33AA1AC980DFE5397074FC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E33AA1AC980DFE5397074FC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				469D655C5E13A138BE2692B0 /* Pods-MyFirstPodSnake_Tests.debug.xcconfig */,
 				72A3FB17549C526FFDB0C5A8 /* Pods-MyFirstPodSnake_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
