@@ -12,7 +12,7 @@ public class Test {
         
     }
     public func test() {
-        print("hello from pod.")
+        print("hello from pod!!!")
     }
 }
 

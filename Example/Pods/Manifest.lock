@@ -1,0 +1,16 @@
+PODS:
+  - MyFirstPodSnake (0.1.0)
+
+DEPENDENCIES:
+  - MyFirstPodSnake (from `../`)
+
+EXTERNAL SOURCES:
+  MyFirstPodSnake:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyFirstPodSnake: 5e5ec339961fcc8160595770a2497804a4e1f87d
+
+PODFILE CHECKSUM: 52aa76e32a3b0543611d0172ad58894a051c4c07
+
+COCOAPODS: 1.9.3

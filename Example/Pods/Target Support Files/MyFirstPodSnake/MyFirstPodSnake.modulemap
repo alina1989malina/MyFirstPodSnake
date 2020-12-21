@@ -1,0 +1,6 @@
+framework module MyFirstPodSnake {
+  umbrella header "MyFirstPodSnake-umbrella.h"
+
+  export *
+  module * { export * }
+}

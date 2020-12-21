@@ -13,8 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let test = MyFirstPodSnake.Test()
-        test.test()
+        let t = Test()
+        t.test()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
